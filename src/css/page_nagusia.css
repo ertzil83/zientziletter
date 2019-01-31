@@ -1,0 +1,37 @@
+/*ESTILO DE LA PÁGINA POI.HTML*/
+.content_nagusia 
+{
+	/*margin-top: 0px !important;*/
+	padding: 1em;
+}
+#copyToClipboardButton
+{
+	display: none;
+}
+#createTemplateButton
+{
+	display: none;
+}
+#article_list_div
+{
+	padding-top: 1em;
+}
+.title_span
+{
+	font-size: 28px !important;
+    font-weight: bold;
+}
+.week_word_cb
+{
+	z-index: 0 !important;
+}
+#asteko_hitza_info,
+#main_new_text,
+#custom_new_text
+{
+	display: none;
+}
+.class_bold
+{
+	font-weight: bold;
+}

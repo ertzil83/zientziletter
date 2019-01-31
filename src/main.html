@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Newsletter MailChimp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script type="text/javascript" src="js/loadScripts.js"></script>
+</head>
+<body>
+
+<div data-role="header" id="app_header" data-id="app_header_fixed" data-hide-during-focus="false" data-position="fixed" data-tap-toggle="false"></div>
+<div data-role="panel" id="panel_app" data-display="overlay" data-theme="none">
+
+  <div id="div_panel_app_logo">
+    <img class="img_logo" ></img> 
+  </div>
+	<div id="div_panel_menu">
+    <p><a href="#" data-url = "news" class="ui-btn ui-icon-first panelItemSelected ui-icon-background ui-btn-icon-left ui-icon_panel_news_sel" id="newsItem" ></a></p>
+	  <p><a href="#" data-url = "agenda" class="ui-btn ui-icon-first ui-icon-background ui-btn-icon-left ui-icon_panel_agenda panelItem" id="agendaItem" ></a></p>
+    <p><a href="#" data-url = "gallery" class="ui-btn ui-icon-first ui-icon-background ui-btn-icon-left ui-icon_panel_gallery panelItem" id="galleryItem"></a></p>
+    <p><a href="#" data-url = "favs" class="ui-btn ui-icon-first ui-icon-background ui-btn-icon-left ui-icon_panel_fav panelItem" id="favsItem"></a></p>
+	  <p><a href="#" data-url = "about" class="ui-btn ui-icon-first ui-icon-background ui-btn-icon-left ui-icon_panel_about panelItem" id="aboutItem"></a></p>
+    
+  </div>
+ 
+</div>
+
+<div data-role="page" id="page_main" data-dom-cache="true" class = "exitapp">
+  <script type="text/javascript" src="js/main.js"></script>
+
+<div role="main" id = "content" class = "ui-content">
+
+</div>
+
+  <div id = "content_error">
+  </div>
+
+  
+
+  
+
+</div>
+</body>
+</html>

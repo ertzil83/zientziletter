@@ -1,0 +1,550 @@
+@media all and (min-width: 40em){
+	*{
+
+		font-size: 20px !important;
+
+	}
+
+   
+	#app_header h1
+	{   
+    	font-size: 20px !important;
+    
+	}
+	.ui-icon-menu:after
+	{
+    
+    	width: 30px !important;
+    	height: 25px !important;
+    	
+	}
+	#app_header .ui-btn 
+	{
+      	margin-top: 3px;
+    }
+	.ui-icon-lupa:after 
+	{    
+    	width: 60px;
+    	height: 30px;
+    }
+    #favs_list,
+    #gallery_list,
+    #event_list,
+    #news_list 
+	{
+		padding-top: 1em !important;
+		padding-left: 2em !important;
+		padding-right: 2em !important;
+		padding-bottom: 1em !important;
+	}
+	.content_list_item .title
+	{
+		font-size: 22px !important;
+		line-height: 22px;     /* fallback */
+   		max-height: 44px;
+		
+	}
+	#event_list_item .list_div_radio,
+	#event_list_item .list_div
+	{
+		padding-top: 65px !important;
+	}
+
+	#content_error img {
+    	width: 200px;
+	}
+
+	.date_list_item .day_div
+	{
+		font-size: 40px !important;
+	}
+
+	.date_list_item .weekday_div
+	{
+		font-size: 18px !important;
+	}
+	.agenda_list_item .content_list_item
+	{
+		width: 81% !important;
+	}
+	.agenda_list_item .date_list_item
+	{
+		width: 19% !important;
+	
+	}
+	.del_img_div,
+	.save_img_div,
+	.exit_full_src_img_div,
+	.full_src_img_div,
+	.newg_fav_img_div,
+	.new_fav_img_div,
+	.fav_img_div {
+    	height: 45px !important;
+    	width: 45px !important;
+	}
+	.del_img_div .del_img,
+	.save_img_div .save_img,
+	.exit_full_src_img_div .new_efsrc_img,
+	.full_src_img_div .new_fsrc_img,
+	.newg_fav_img_div .new_fav_img,
+	.newg_fav_img_div .new_fav_sel_img,
+	.new_fav_img_div .new_fav_img,
+	.new_fav_img_div .new_fav_sel_img,
+	.fav_img_div .fav_img,
+	.fav_img_div .fav_sel_img {
+    height: 30px !important;
+    width: 30px !important;
+    
+	}
+	.page_swiper,
+	.player_div,
+	.image_div
+	{
+		height: 230px !important;
+	}
+
+	/*EKITALDIEN ORRIA*/
+	#event_content .image
+	{
+		height: 180px;
+	}
+
+	#event_content .title
+	{
+		font-size: 28px !important;
+	}
+	
+	#event_content .dates
+	{
+		font-size: 21px !important;
+	}
+	#event_content .info
+	{
+		font-size: 21px !important;
+	}
+
+	#event_content #desc_div
+	{
+		font-size: 19px !important;
+	}
+
+	/*GALERIEN ORRIA*/
+	
+
+	/*BERRIEN ORRIA*/
+
+	.top_div
+	{
+	
+		top: 53px !important;
+		
+	}
+	#new_content .title
+	{
+		font-size: 28px !important;
+	}
+	#new_content .subtitle
+	{
+		font-size: 22px!important;
+	}
+	#new_content .image
+	{
+		height: 180px;
+	}
+
+	#new_content .dates
+	{
+		font-size: 21px !important;
+	}
+	#new_content .info
+	{
+		font-size: 21px !important;
+	}
+	#new_content .new_central_div #desc_div *,
+	#new_content .new_central_div #desc_div ,
+	#new_content #desc_div *
+	{
+		font-size: 19px!important;
+	}
+	#new_content .dots
+	{
+		font-size: 38px!important;
+	}
+	#new_content #track_title_div
+	{
+		
+		
+		height: 30px;
+	}
+	#new_content #track_title
+	{
+		font-size: 23px!important;
+		
+	}
+
+	/*PANEL LATERALA*/
+	#panel_app .ui-btn 
+	{
+    	font-size: 20px !important;
+    }
+    
+	#div_panel_app_logo .img_logo
+	{
+    	width: 35%;
+    	margin-top: 1.3em;
+    margin-bottom: 1.3em;
+    
+	}
+	
+
+	/*APLIKAZIOARI BURUZ*/
+
+	#about_content .about_t p 
+	{
+		font-size: 19px !important;
+	
+	}
+
+	#about_content .contact_t 
+	{
+		font-size: 19px !important;
+	
+	}
+	#about_content .strong
+	{
+		font-size: 19px !important;
+	}
+	#about_content .time_p
+	{
+		font-size: 19px!important;
+	
+	}
+	#about_content .list_element_icon
+	{
+		height:27px;
+		width:27px; 
+	}
+	#about_content .logo
+	{
+	width: 250px;
+	}
+	#about_content .gv_logo
+	{
+		width: 150px;
+	}
+
+    
+}
+
+@media all and (min-width: 64em){
+    
+	*{
+
+		font-size: 30px !important;
+
+	}
+
+	#app_header h1
+	{   
+    	font-size: 30px !important;
+    
+	}
+	#app_header .ui-btn {
+    height: 50px !important;
+    width: 40px;
+   
+	}
+	#app_header .ui-icon-lupa:after 
+	{
+    	width: 80px;
+    	height: 40px;
+    	z-index: 1000;
+
+    	/*margin-top: -10px !important;*/
+	}
+	#app_header .ui-btn_logo 
+	{
+    	border: none;
+    	height: 40px !important;
+    	width: 130px;
+    	margin-top: 10px!important;
+    	background-color: transparent;
+	}
+	.ui-icon-menu:after
+	{
+    
+    	width: 35px !important;
+    	height: 30px !important;
+    	
+	}
+	#app_header .ui-btn 
+	{
+      	margin-top: 3px;
+    }
+	#favs_list,
+    #gallery_list,
+    #event_list,
+    #news_list 
+	{
+		padding-top: 1em !important;
+		padding-left: 2em !important;
+		padding-right: 2em !important;
+		padding-bottom: 1em !important;
+	}
+	.content_list_item .title
+	{
+		font-size: 30px !important;
+		line-height: 30px;     /* fallback */
+   		max-height: 60px;
+		
+	}
+
+	#event_list_item .list_div_radio,
+	#event_list_item .list_div
+	{
+		padding-top: 85px !important;
+	}
+	
+
+	#news_content .load_more
+	{
+		
+    	width: 220px;
+    	display: none ;
+    
+	}
+	#agenda_content .load_more
+	{
+		
+    	width: 220px;
+    	display: none ;
+    
+	}
+
+	#content_error img {
+    	width: 200px;
+	}
+
+	.date_list_item .day_div
+	{
+		font-size: 40px !important;
+	}
+
+	.date_list_item .weekday_div
+	{
+		font-size: 20px !important;
+	}
+	.agenda_list_item .content_list_item
+	{
+		width: 81% !important;
+	}
+	.agenda_list_item .date_list_item
+	{
+		width: 19% !important;
+	
+	}
+
+	.del_img_div,
+	.save_img_div,
+	.exit_full_src_img_div,
+	.full_src_img_div,
+	.newg_fav_img_div,
+	.new_fav_img_div,
+	.fav_img_div {
+    	height: 50px !important;
+    	width: 50px !important;
+	}
+	.del_img_div .del_img,
+	.save_img_div .save_img,
+	.exit_full_src_img_div .new_efsrc_img,
+	.full_src_img_div .new_fsrc_img,
+	.newg_fav_img_div .new_fav_img,
+	.newg_fav_img_div .new_fav_sel_img,
+	.new_fav_img_div .new_fav_img,
+	.new_fav_img_div .new_fav_sel_img,
+	.fav_img_div .fav_img,
+	.fav_img_div .fav_sel_img {
+    height: 35px !important;
+    width: 35px !important;
+    
+	}
+
+	.page_swiper,
+	.player_div,
+	.image_div
+	{
+		height: 300px !important;
+	}
+	.favs_list_div,
+	.gallery_list_div {
+    margin-top: 70px !important;
+}
+
+	/*EKITALDIEN ORRIA*/
+	.right_div #btn_to_calendar
+	{
+    
+    	width: 40px !important;
+    	height: 55px !important;
+    	margin-right: 15px;
+    	
+	}
+	#app_header .ui-icon-map:after 
+	{
+    	width: 30px;
+    	height: 30px;
+    	z-index: 1000;
+    	margin-top: -12px !important;
+	}
+	#app_header .ui-icon-tocalendar:after 
+	{
+    	width: 30px;
+    	height: 30px;
+    	z-index: 1000;
+    	margin-top: -12px !important;
+	}
+	#app_header .ui-icon-prev:after 
+	{
+    	width: 30px;
+    	height: 30px;
+    	z-index: 1000;
+    	margin-top: -12px !important;
+	}
+	#event_content .image
+	{
+		height: 200px;
+	}
+
+	#event_content .title
+	{
+		font-size: 30px !important;
+	}
+	
+	#event_content .dates
+	{
+		font-size: 24px !important;
+	}
+	#event_content .info
+	{
+		font-size: 24px !important;
+	}
+	#event_content .new_central_div #desc_div *,
+	#event_content .new_central_div #desc_div ,
+	#event_content #desc_div *
+	{
+		font-size: 22px !important;
+	}
+
+	#event_list_item .date
+	{
+		font-size: 22px !important;
+	}
+
+	/*BERRIEN ORRIA*/
+	.news_list_div
+	{
+		margin-top: 70px !important;
+	}
+	.top_div
+	{
+	
+		top: 80px !important;
+		
+	}
+	#new_content .title
+	{
+		font-size: 32px !important;
+	}
+	#new_content .subtitle
+	{
+		font-size: 26px!important;
+	}
+
+	#new_content .image
+	{
+		height: 200px;
+	}
+
+	#new_content .dates
+	{
+		font-size: 24px !important;
+	}
+	#new_content .info
+	{
+		font-size: 24px !important;
+	}
+
+	#new_content .new_central_div #desc_div *,
+	#new_content .new_central_div #desc_div ,
+	#new_content #desc_div *
+	{
+		font-size: 25px!important;
+	}
+	#new_content .dots
+	{
+		font-size: 42px!important;
+	}
+	#new_content #track_title_div
+	{
+		
+		
+		height: 32px;
+	}
+	#new_content #track_title
+	{
+		font-size: 24px!important;
+		
+	}
+
+	/*PANEL LATERALA*/
+	#panel_app .ui-btn 
+	{
+    	font-size: 28px !important;
+    }
+   
+
+	#div_panel_app_logo .img_logo
+	{
+    	width: 40%;
+    	margin-top: 1.0em;
+    margin-bottom: 1.0em;
+    
+	}
+
+	/*APLIKAZIOARI BURUZ*/
+
+	#about_content .about_t p 
+	{
+		font-size: 23px !important;
+	
+	}
+
+	#about_content .contact_t 
+	{
+		font-size: 23px !important;
+	
+	}
+	#about_content .strong
+	{
+		font-size: 23px !important;
+	}
+	#about_content .time_p
+	{
+		font-size: 23px!important;
+	
+	}
+	#about_content .list_element_icon
+	{
+		height:32px;
+		width:32px; 
+	}
+	#about_content .logo
+	{
+		width: 330px;
+		margin-bottom: 50px;
+	}
+	#about_content .gv_logo {
+    width: 170px;
+}
+
+}

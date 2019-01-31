@@ -1,0 +1,133 @@
+/*ESTILO DE LA PÁGINA POI.HTML*/
+.content_event .content
+{
+	margin-top: 0px !important;
+	padding: 0em;
+}
+
+.title
+{
+	font-size: 22px !important;
+	font-weight: bold;
+}
+.dates
+{
+	font-size: 16px !important;
+}
+
+.image
+{
+	height: 120px;
+	width: 100%;
+	object-fit: cover;
+}
+.image_div
+{
+	height: 200px;
+	width: 100%;
+	background-position:center;
+	background-size: cover;
+}
+.date
+{
+	margin-top: 10px;
+}
+.text
+{
+	font-weight: bold;
+	font-size: 16px!important;
+}
+.simple_text
+{
+	font-size: 16px !important;
+	margin-left: 5px;
+}
+.line-separator
+{
+	height:1px;
+	margin-top: 5px;
+	background:#BEBEBE;
+	margin-left: 10px;
+	margin-right: 10px;
+} 
+
+.tab_selected
+{
+	font-size: 16px !important;
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+	text-decoration: underline;
+}
+.tab_not_selected
+{
+	font-size: 16px !important;
+	font-weight: bold;
+	text-align: center;
+	color: #d3d3d3;
+}
+#desc_div
+{
+	margin-top: 10px;
+	font-size: 15px!important;
+}
+#map_div
+{
+	margin-top: 10px;
+	display: none;
+	height: 250px;
+	width: 100%;
+}
+.info
+{
+	font-weight: bold;
+	font-size: 16px !important;
+}
+.info_div
+{
+	margin-top: 10px;
+	border-color: #002784;
+	border-style: solid;
+	border-width: 4px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	padding: 0.4em;
+}
+.line-separator
+{
+	height:1px;
+	margin-top: 10px;
+	background:#BEBEBE;
+}
+
+.url_div
+{
+	text-align: center;
+	font-size: 15px !important;
+	margin-top: 10px;
+	color: #002784;
+	font-weight: bold;
+}
+
+.visit_web
+{
+	border-color: #002784 !important;
+	background-color: white !important;
+	color:  #002784 !important;
+	margin:0 auto !important;
+    display:block !important;
+    width: 160px;
+    margin-top: 10px !important;
+    
+}
+.new_central_div
+{
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+
+

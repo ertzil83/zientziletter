@@ -1,0 +1,145 @@
+/*ESTILO DE LA PÁGINA POI.HTML*/
+.content_agenda .content
+{
+	margin-top: 0px !important;
+	padding: 0em;
+}
+
+#event_list
+{
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 10px;
+}
+
+#event_list li
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 1em;
+	padding-right: 1em;
+
+}
+.title
+{
+	font-size: 16px !important;
+	font-weight: bold;
+	overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px;     /* fallback */
+   max-height: 32px;      /* fallback */
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+.date
+{
+	font-style: italic;
+	color: #2f4f4f;
+}
+.content_list_item
+{
+	width: 75% !important;
+	vertical-align: middle;
+	padding: 0.3em;
+    display: table;
+}
+.date_list_item
+{
+	width: 25% !important;
+	background-color: #002784;
+	padding: 0.3em;
+}
+.icon_list_item
+{
+	width: 15% !important;
+	content:url(../img/1x/ic_next.png);
+	padding: 1em;
+	margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+}
+.arrow_icon
+{
+	width: 50px;
+	height: 50px;
+}
+.agenda_list_item
+{
+	display: table;
+	vertical-align: center;
+	background-color: #e8e4e4;
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	border-color: #002784;
+	border-style: solid;
+	border-width: 1px;
+}
+.month_div
+{
+	color: white;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+}
+.day_div
+{
+	color: white;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+	font-size: 34px !important;
+}
+.weekday_div
+{
+	color: white;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	font-size: 13px !important;
+}
+.load_more
+{
+	border-color: #002784 !important;
+	background-color: white !important;
+	color:  #002784 !important;
+	margin:0 auto !important;
+    width: 160px;
+    margin-top: 15px !important;
+    display: none ;
+    
+}
+.banner_li
+{
+	margin-top: 5px;
+}
+
+.top_div
+{
+	background-color:#eae4e1 ;
+	padding: 0.5em;
+	width: 100%;
+	position: fixed;
+	top: 41px;
+	z-index: 1;
+	text-align: center;
+	visibility: hidden;
+	border-width: 1px;
+    border-bottom-width:1px;
+    border-bottom-color:#002784;
+    border-bottom-style: solid;
+}
+.top_div span
+{
+	color: #002784;
+	font-weight: bold;
+}
+.news_list_div
+{
+	margin-top: 50px;
+}
+
+

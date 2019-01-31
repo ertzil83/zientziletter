@@ -1,0 +1,133 @@
+/* PERSONALIZACIÓN DATEPICKER. CALENDARIO */
+
+.datepicker
+{
+    z-index: 9999;
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 2em;
+    bottom: 2em;
+    right: 1em;
+    left: 1em;
+}
+
+.datepicker .ui-widget-content
+{
+    border-radius: 0 !important;
+    background: #FFFFFF !important; 
+    border: none !important;  
+    padding: 0 !important;
+}
+
+.ui-widget-header {
+    border: 1px solid #012681  !important;
+    background: #012681 !important;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0 !important;
+}
+
+.ui-datepicker
+{
+    width: auto !important;
+    height: 100% !important;
+}
+
+.ui-datepicker .ui-datepicker-title
+{
+    margin: 1em 2.3em;
+    line-height: 1.8em;
+    text-align: center;
+    background-color: #012681;
+}
+
+.ui-datepicker .ui-datepicker-title span
+{
+    display: block;
+    margin: 0.3em;
+}
+
+.ui-datepicker .ui-datepicker-month
+{
+    font-size: 25px !important;
+}
+
+.ui-datepicker .ui-datepicker-day
+{
+    font-size: 60px !important;
+    font-weight: bolder;
+}
+
+.ui-datepicker .ui-datepicker-year
+{
+    font-size: 25px !important;
+    opacity: .7;
+}
+.ui-datepicker .ui-state-hover
+{
+    background: #b9d303 !important;
+    border: none !important;
+}
+
+.ui-datepicker .ui-state-default {
+    border: none !important;
+    background: transparent !important;
+    font-weight: lighter  !important;
+    color: #000000  !important;
+    text-align: center  !important;
+}
+
+.ui-datepicker .ui-state-active
+{
+    background: #b9d303 !important;
+    color: #FFFFFF !important;
+    border-radius: 2em;
+}
+.ui-datepicker .ui-state-highlight
+{
+    background: #38c !important;
+    color: #FFFFFF !important;
+    border-radius: 2em;    
+}
+
+.ui-datepicker td,
+.ui-datepicker td a,
+.ui-datepicker th,
+.ui-datepicker th span
+{
+    width: 28px !important;
+    height: 28px !important;
+}
+
+.ui-datepicker td a
+{
+    padding: .2em !important;
+    line-height: 2em;
+}
+
+.ui-datepicker .ui-datepicker-next,
+.ui-datepicker .ui-datepicker-prev
+{
+    top: 50% !important;
+}
+
+.datepicker.out
+{
+    opacity: 1.0;
+}
+
+.datepicker .datapicker_buttons
+{
+    margin-top: -4em;
+}
+
+.datepicker .datapicker_buttons .ui-btn
+{
+    border: none !important;
+    background-color: #012681  !important;
+    text-shadow: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}

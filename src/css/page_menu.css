@@ -1,0 +1,68 @@
+/*ESTILO DE LA PÁGINA MENU.HTML*/
+.content_menu .content
+{
+	padding: 1em;
+	margin-top: 10px;
+	
+}
+
+.menu_cat_list div
+{
+	
+	/*padding-top: 0.5em;
+	padding-bottom: 0.5em;*/
+	height: 80px;
+
+}
+
+#menu_list_div  .ui-block-a
+{
+	width:25% !important;
+	height: 80px;
+}
+#menu_list_div .ui-block-b
+{
+	width:75% !important;
+	height: 80px;
+	display: table;
+}
+.poi_img_default
+{
+	width: 60px;
+	height: 60px;
+    display: block;
+    margin-top: 0.85em;
+    margin-bottom: 0.85em;
+    margin-left: 0.85em;
+    margin-right: 0.85em;
+    position: relative;
+    content:url(../img/1x/ic_logo_riba_bn.png);
+}
+.poi_img
+{
+	width: 60px;
+	height: 60px;
+	background-color: transparent !important;
+	border: none !important;
+	mix-blend-mode: multiply;
+    display: block;
+    margin-top: 0.85em;
+    margin-bottom: 0.85em;
+    margin-left: 0.85em;
+    margin-right: 0.85em;
+    position: relative;
+}
+
+.title_class
+{
+	display: table-cell;
+    vertical-align: middle;
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+
+
+/*ul li {
+    border-bottom:1px solid #ccc !important;
+}*/

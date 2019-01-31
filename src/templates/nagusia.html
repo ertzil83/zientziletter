@@ -1,0 +1,34 @@
+
+<script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+<div class="content_nagusia">			
+          <p><span class="title_span">Zientzia.eus-en Newsletter automatikoa</span></p>
+          <p>Aukeratu eguna: <input type="text" id="datepicker"></p>
+          <input type="button" id="loadButton" value="Albisteak kargatu">
+          <input type="button" id="createTemplateButton" value="Newsletter-a sortu">
+          <input type="button" id="copyToClipboardButton" value="Edukiak kopiatu">
+           
+          <div id="article_list_div">
+          	
+          </div>
+          <div id="asteko_hitza_info">
+            <label class="week_word_cb"><input type="checkbox"  name="week_word" >Asteko hitza sartu<br></label>
+          </div> 
+          <div id="main_new_text">
+            <p class="class_bold">Sartu berri nagusiaren laburpena:</p>
+            <textarea class="main_new_text_ta"></textarea>
+          </div>
+          <div id="custom_new_text">
+            <p class="class_bold">Berri kustomizatua:</p>
+            <p>Sartu berri kustomizatuaren izenburua:</p>
+            <textarea class="custom_main_new_text_ta"></textarea>
+            <p>Sartu berri kustomizatuaren irudiaren url-a:</p>
+            <textarea class="custom_main_new_img_ta"></textarea>
+            <p>Sartu berri kustomizatuaren esteka:</p>
+            <textarea class="custom_main_new_url_ta"></textarea>
+          </div>
+
+</div>
