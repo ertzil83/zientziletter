@@ -25,13 +25,17 @@
  {
     //separateInArrays();
     getImagesFromSource();
-    $( document ).ajaxStop(function() {
-             /* console.log("IRUDIAK");
-              console.log(image_sources);*/
-              down_content=getDownContent(getTableContent(),getEventRowList());
+    down_content=getDownContent(getTableContent(),getEventRowList());
               
               toClipBoard();
-            });
+              hideLoading();
+    /*$( document ).ajaxStop(function() {
+             /* console.log("IRUDIAK");
+              console.log(image_sources);*/
+             /* down_content=getDownContent(getTableContent(),getEventRowList());
+              
+              toClipBoard();
+            });*/
  }
 
  function separateInArrays()
