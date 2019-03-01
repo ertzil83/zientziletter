@@ -108,7 +108,7 @@ function getListOfEvents()
       selected_event_list.push(events_array[i]);
     }
   }
- 
+ console.log(selected_event_list);
 }
 function getMArticleList()
 {
