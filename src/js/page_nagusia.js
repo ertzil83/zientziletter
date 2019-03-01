@@ -405,7 +405,7 @@ $( document ).off( ".nagusia" )
 .on("vclick.nagusia", "#createTemplateButton", function(event)
 { 
   event.preventDefault();
-  console("createTemplateSakata");
+  console.log("createTemplateSakata");
   main_new_text=$('.main_new_text_ta').val();
   custom_main_new_title=$('.custom_main_new_text_ta').val();
   custom_main_new_img=$('.custom_main_new_img_ta').val();
