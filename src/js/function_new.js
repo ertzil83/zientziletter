@@ -24,6 +24,7 @@
  function generateContentTable()
  {
     //separateInArrays();
+    console.log("genrateContentBarruan");
     getImagesFromSource();
     down_content=getDownContent(getTableContent(),getEventRowList());
               
