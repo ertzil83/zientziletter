@@ -76,14 +76,14 @@
 
  function completeImageArray(index, image_id)
  {
-  image_sources[index]="";
-  /*  zientziApp.api.getIrudia(image_id)
+  //image_sources[index]="";
+    zientziApp.api.getIrudia(image_id)
           .done(function(response) {
             //console.log(response);
             var imgs = $("<div>" +response +"</div>").find("img");
             var img_src=imgs.attr('src');
             image_sources[index]=img_src.replace(/ /g,'%20');
-          });*/
+          });
  }
 
  function getTableContent()
