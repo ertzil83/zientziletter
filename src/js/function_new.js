@@ -403,6 +403,8 @@ function getVideoUrl(vid)
 
  function getDownContent(table_content_row,event_content_row)
  {
+   console.log("event_content_row");
+   console.log(event_content_row);
   return '   </td>  '  + 
  '       </tr>  '  + 
  '   </tbody></table>  '  + 
