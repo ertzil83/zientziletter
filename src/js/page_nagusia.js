@@ -95,7 +95,7 @@ function getListOfWeek()
 
 function getListOfEvents()
 {
- // console.error("GETLISTOFEVENTS BARRUAN");
+  console.error("GETLISTOFEVENTS BARRUAN");
   var formated_day_end= $.datepicker.formatDate("yy-mm-dd", end_ag);
   var formated_day_start=$.datepicker.formatDate("yy-mm-dd", start_ag);
   for (var i=0; i<events_array.length; i++)
@@ -226,6 +226,7 @@ function toClipBoard()
 }
 function getFavArticle()
 {
+  console.log("getFavArticle barruan");
   var id= $( "input:checked" ).val();
   updateMainNews(id);
   //return true;

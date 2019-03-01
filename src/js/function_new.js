@@ -45,6 +45,7 @@
     else
       mailc_audios_array.push(news_by_day[i]);
   }
+  console.log("separateInArrays barruan");
  }
 
  function getImagesFromSource()
