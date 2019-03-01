@@ -340,6 +340,7 @@ function getVideoUrl(vid)
  {
    console.log("getEventRowList barrua");
   var row_block="";
+  console.log(selected_event_list);
  // console.log("GET EVENT ROW LIST: "+selected_event_list.length);
   for (var i=0; i<selected_event_list.length; i++)
   {

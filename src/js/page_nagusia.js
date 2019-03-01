@@ -436,7 +436,8 @@ $( document ).off( ".nagusia" )
 .on("vclick.nagusia", "#copyToClipboardButton", function(event)
 {
   event.preventDefault();
-  var generated_end=down_content;
+  //var generated_end=down_content;
+  var generated_end=getDownContent(getTableContent(),getEventRowList());
   console.log("generated_end");
   console.log(generated_end);
   var html_for_mailchimp=html_base_start+html_main_new+generated_end;
