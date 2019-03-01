@@ -437,6 +437,8 @@ $( document ).off( ".nagusia" )
 {
   event.preventDefault();
   var generated_end=down_content;
+  console.log("generated_end");
+  console.log(generated_end);
   var html_for_mailchimp=html_base_start+html_main_new+generated_end;
   copyToClipboard(html_for_mailchimp);
   return false;

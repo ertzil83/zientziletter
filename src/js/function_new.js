@@ -338,12 +338,14 @@ function getVideoUrl(vid)
 
  function getEventRowList()
  {
+   console.log("getEventRowList barrua");
   var row_block="";
  // console.log("GET EVENT ROW LIST: "+selected_event_list.length);
   for (var i=0; i<selected_event_list.length; i++)
   {
     row_block=row_block + getEventRow(selected_event_list[i])+table_dividier;
   }
+  console.error(row_block);
   return row_block;
  }
 
