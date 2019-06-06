@@ -252,7 +252,7 @@ function getVideoUrl(vid)
                         '<a title="" href="'+u+'" target="_blank">'+
                         
 
-                        '<img  style="border-radius: 0%;object-fit: cover;width: 76px;height: 76px;" class="mcnImage" style="max-width:700px;" alt="" src="'+image+'">'+
+                        '<img  style="border-radius: 0%;object-fit: cover;width: 135px;height: 76px;" class="mcnImage" style="max-width:700px;" alt="" src="'+image+'">'+
                         '</a>'+
 
                     
