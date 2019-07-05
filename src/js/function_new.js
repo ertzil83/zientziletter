@@ -89,6 +89,7 @@
             var imgs = $("<div>" +response +"</div>").find("img");
             var img_src=imgs.attr('src');
             image_sources[index]=img_src.replace(/ /g,'%20');
+            console.log(image_sources);
           });
  }
 
