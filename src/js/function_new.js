@@ -56,6 +56,7 @@
 
  function getImagesFromSource()
  {
+   console.log("getImagesFromSource barruan");
   var total_elemts=mailc_articles_array.length +mailc_videos_array.length;
   var image_index=0; 
   image_sources=new Array(total_elemts);
