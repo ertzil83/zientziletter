@@ -28,14 +28,15 @@
     getImagesFromSource();
     down_content=getDownContent(getTableContent(),getEventRowList());
               
-              toClipBoard();
-              hideLoading();
+           /*   toClipBoard();
+              hideLoading();*/
     $( document ).ajaxStop(function() {
               console.log("IRUDIAK");
               console.log(image_sources);
               down_content=getDownContent(getTableContent(),getEventRowList());
               
               toClipBoard();
+              hideLoading();
             });
  }
 
