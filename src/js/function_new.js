@@ -237,7 +237,8 @@ function getVideoUrl(vid)
  function getRow(t,u,i)
  {
   var image=image_sources[i];
-  
+console.log("getRow barruan");
+console.log(image);
  var table_element='<table width="100%" class="mcnCaptionBlock" border="0" cellspacing="0" cellpadding="0">'+
     '<tbody class="mcnCaptionBlockOuter">'+
         '<tr>'+
