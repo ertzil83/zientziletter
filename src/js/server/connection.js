@@ -39,7 +39,7 @@ ZientziApp.Connection.prototype._imgServerCall = function(url, data, contentType
     
     var method = data ? "POST" : "GET";
 
-    var options = { type: method, data: data, dataType: 'json',  timeout: timeout != undefined? timeout : 15000 };
+    var options = { type: method, data: data, dataType: 'html',  timeout: timeout != undefined? timeout : 15000 };
 
     var promise = $.ajax( url,  options)
     .fail(function( jqXHR, textStatus, errorThrown)

@@ -83,10 +83,11 @@
 
  function completeImageArray(index, image_id)
  {
+   console.log("completeImageArray barruan");
   image_sources[index]="";
     zientziApp.api.getIrudia(image_id)
           .done(function(response) {
-            //console.log(response);
+            console.log(response);
             var imgs = $("<div>" +response +"</div>").find("img");
             var img_src=imgs.attr('src');
             image_sources[index]=img_src.replace(/ /g,'%20');
