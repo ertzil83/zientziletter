@@ -192,6 +192,7 @@ right_table_content+
  '                  </td>  '  + 
  '                </tr>  ' ; 
  
+ console.info(table_row);
  return table_row;
 
  }
