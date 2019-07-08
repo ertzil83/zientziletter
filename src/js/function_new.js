@@ -33,7 +33,7 @@
     $( document ).ajaxStop(function() {
               console.log("IRUDIAK");
               console.log(image_sources);
-              down_content=getDownContent(getTableContent(),getEventRowList());
+            //s  down_content=getDownContent(getTableContent(),getEventRowList());
               
               toClipBoard();
               hideLoading();
