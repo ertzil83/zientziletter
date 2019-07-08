@@ -26,7 +26,7 @@
     //separateInArrays();
     console.log("genrateContentBarruan");
     getImagesFromSource();
-   // down_content=getDownContent(getTableContent(),getEventRowList());
+    down_content=getDownContent(getTableContent(),getEventRowList());
               
            /*   toClipBoard();
               hideLoading();*/
@@ -410,7 +410,7 @@ console.log(image);
  function getDownContent(table_content_row,event_content_row)
  {
    console.log("event_content_row");
-   console.log(event_content_row);
+   console.log(table_content_row);
   return '   </td>  '  + 
  '       </tr>  '  + 
  '   </tbody></table>  '  + 

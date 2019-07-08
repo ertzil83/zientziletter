@@ -160,9 +160,9 @@ function updateMainNews(value)
   }
   showLoading();
   main_new_image="";
-  separateInArrays()
-  createTemplate();
-  /*zientziApp.api.getIrudia(photo)
+  /*separateInArrays()
+  createTemplate();*/
+  zientziApp.api.getIrudia(photo)
           .done(function(response) {
            
             hideLoading();
@@ -171,7 +171,7 @@ function updateMainNews(value)
             main_new_image=src.replace(/ /g,'%20');
             separateInArrays()
             createTemplate();
-          });*/
+          });
 }
 
 function checkIfCustomIsSelected()
