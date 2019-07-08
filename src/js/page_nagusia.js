@@ -169,6 +169,8 @@ function updateMainNews(value)
             var imgs = $("<div>" +response +"</div>").find("img");
             var src=imgs.attr('src');
             main_new_image=src.replace(/ /g,'%20');
+            console.log("IRUDI NAGUSIA");
+            console.log(main_new_image);
             separateInArrays()
             createTemplate();
           });
