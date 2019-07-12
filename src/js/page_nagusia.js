@@ -441,7 +441,7 @@ $( document ).off( ".nagusia" )
   //var generated_end=down_content;
   var generated_end=getDownContent(getTableContent(),getEventRowList());
   
-  var html_for_mailchimp=getStartHtml(main_new_img,main_new_text,main_new_title,main_new_url)+html_main_new+generated_end;
+  var html_for_mailchimp=getStartHtml(main_new_image,main_new_text,main_new_title,main_new_url)+html_main_new+generated_end;
   console.log(html_for_mailchimp);
   copyToClipboard(html_for_mailchimp);
   return false;
@@ -467,7 +467,7 @@ var show_week_word=false;
 var main_new_text="";
 var main_new_title="";
 var main_new_url="";
-var main_new_img="";
+var main_new_image="";
 var custom_main_new_title="";
 var custom_main_new_url="";
 var custom_main_new_img="";
