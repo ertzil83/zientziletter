@@ -1,10 +1,6 @@
 function getStartHtml(img, desc, url)
 {
-    console.log ("GETSTARTHTML BARRUAN");
-}
-
-
-html_base_start= '   <!doctype html>  '  + 
+    return '   <!doctype html>  '  + 
  '   <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">  '  + 
  '   	<head><meta name="twitter:image:src" content="https://gallery.mailchimp.com/6784db607f37ddd99396869ff/images/ff313b38-cd10-44bc-9cab-62b6e6f1f1cb.jpg"><meta name="twitter:description" content="Aranbaltzan aurkitutako zurezko tresnetako bat. Neandertalek egindakoa da eta 90.000 urte ditu. Arg. Joseba Rios Garaizar"><meta name="twitter:title" content="Neandertalen egurrezko tresnak, gizonezkoentzako antisorgailua eta Sralarreko antzinako bizitokiak, aste honetan Zientzia.eus-en."><meta name="twitter:card" content="summary_large_image"><meta property="og:type" content="article"><meta property="og:description" content="Aranbaltzan aurkitutako zurezko tresnetako bat. Neandertalek egindakoa da eta 90.000 urte ditu. Arg. Joseba Rios Garaizar"><meta property="og:image" content="https://gallery.mailchimp.com/6784db607f37ddd99396869ff/images/ff313b38-cd10-44bc-9cab-62b6e6f1f1cb.jpg"><meta property="og:title" content="Neandertalen egurrezko tresnak, gizonezkoentzako antisorgailua eta Sralarreko antzinako bizitokiak, aste honetan Zientzia.eus-en."><meta property="og:url" content="http://eepurl.com/dqzwU9">  '  + 
  '   		<!-- NAME: 1:2:1 COLUMN -->  '  + 
@@ -659,6 +655,10 @@ html_base_start= '   <!doctype html>  '  +
  '                             '  + 
  '                           <td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #000000;font-family: Helvetica;font-size: 12px;line-height: 150%;text-align: left;" valign="top">  '  + 
  '    ' ; 
+}
+
+
+
 
 
 html_base_end= '   </td>  '  + 
