@@ -442,7 +442,7 @@ $( document ).off( ".nagusia" )
   var generated_end=getDownContent(getTableContent(),getEventRowList());
   //console.log("generated_end");
   //getStartHtml("","","");
-  var html_for_mailchimp=getStartHtml(custom_main_new_img,main_new_text,custom_main_new_title,custom_main_new_url)+html_main_new+generated_end;
+  var html_for_mailchimp=getStartHtml(main_new_img,main_new_text,main_new_title,main_new_url)+html_main_new+generated_end;
   console.log(html_for_mailchimp);
   copyToClipboard(html_for_mailchimp);
   return false;
