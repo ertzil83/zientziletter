@@ -389,10 +389,10 @@ $( document ).off( ".nagusia" )
   var d = new Date(selected_day_init);
  
   // Add weeks to the selected date, multiply with 7 to get days
-  start = new Date(d.getFullYear(), d.getMonth(), d.getDate() -6);
+  start = new Date(d.getFullYear(), d.getMonth(), d.getDate() -days_number -1); //-6
   end=new Date(d.getFullYear(), d.getMonth(), d.getDate() +1);
   start_ag=new Date(d.getFullYear(), d.getMonth(), d.getDate());
-  end_ag=new Date(d.getFullYear(), d.getMonth(), d.getDate() +7);
+  end_ag=new Date(d.getFullYear(), d.getMonth(), d.getDate() +7); // 7
   
   if (selected_day==null)
   {
