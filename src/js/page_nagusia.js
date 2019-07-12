@@ -382,6 +382,8 @@ $( document ).off( ".nagusia" )
   $('#createTemplateButton').hide();
   $('#copyToClipboardButton').hide();
   $("#content_error").empty();
+  days_number=$("#days_number").value;
+  console.log(days_number);
   selected_day=$("#datepicker").datepicker("getDate");
   var selected_day_init=$("#datepicker").datepicker("getDate");
   var d = new Date(selected_day_init);
@@ -471,6 +473,7 @@ var main_new_image="";
 var custom_main_new_title="";
 var custom_main_new_url="";
 var custom_main_new_img="";
+var days_number;
 /* INIT */
 page_nagusia.writeBody($(document.body));
 
