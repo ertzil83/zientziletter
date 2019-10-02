@@ -8,7 +8,7 @@ var page_nagusia = window.zientziApp || {};
 page_nagusia.writeBody = function (rootElement) {
   'use strict';
 
-// console.log("Nagusia barruan");
+
  view = new zientziApp.View(rootElement);
  hideLoading();
   
@@ -18,22 +18,21 @@ function loadFromServer()
 {
   zientziApp.api.getNews()
           .done(function(json_response) {
-           // console.log("datuak kargatuta");
-           console.log(json_response);
+           
               zientziApp.api.getTags()
                   .done(function(json_response) {
-                   // console.log("atalak kargatuta");
+                   
                     ZientziApp.localStorage.setItem("atalak",JSON.stringify(json_response.get()));
                     
                     zientziApp.api.getAuthors()
                   .done(function(json_response) {
-                   // console.log("egileak kargatuta");
+                   
                     ZientziApp.localStorage.setItem("egileak",JSON.stringify(json_response.get()));
                 
 
                     zientziApp.api.getAgenda()
 			          .done(function(json_response) {
-			           // console.log("datuak kargatuta");
+			           
 			            events_array=json_response.get();
 			            events_array.sort(SortByDate);
 			            ZientziApp.localStorage.setItem("agenda",JSON.stringify(events_array));
@@ -82,7 +81,7 @@ function getListOfWeek()
 	news_by_day=[];
 	for (var i=0; i<news_array.length; i++)
 	{
-		//console.log(getCleanDate(news_array[i].fields.published_date));
+		
 		var date_to_compare=getCleanDate(news_array[i].fields.published_date);
 		if(formated_day_start<= date_to_compare && date_to_compare<formated_day_end)
 		{
@@ -95,12 +94,12 @@ function getListOfWeek()
 
 function getListOfEvents()
 {
-  console.error("GETLISTOFEVENTS BARRUAN");
+  
   var formated_day_end= $.datepicker.formatDate("yy-mm-dd", end_ag);
   var formated_day_start=$.datepicker.formatDate("yy-mm-dd", start_ag);
   for (var i=0; i<events_array.length; i++)
   {
-    //console.log(getCleanDate(news_array[i].fields.published_date));
+    
     var date_to_compare_start=getCleanDate(events_array[i].fields.begin);
     var date_to_compare_end=getCleanDate(events_array[i].fields.end);
     if(formated_day_start<= date_to_compare_end && formated_day_end>date_to_compare_start)
@@ -108,7 +107,7 @@ function getListOfEvents()
       selected_event_list.push(events_array[i]);
     }
   }
- console.log(selected_event_list);
+ 
 }
 function getMArticleList()
 {
@@ -176,8 +175,7 @@ function updateMainNews(value)
             var imgs = $("<div>" +response +"</div>").find("img");
             var src=imgs.attr('src');
             main_new_image=src.replace(/ /g,'%20');
-            console.log("IRUDI NAGUSIA");
-            console.log(main_new_image);
+            
             separateInArrays()
             createTemplate();
           });
@@ -199,7 +197,7 @@ function getCleanDate(value)
 }
 
 function SortByDate(a, b){
- // console.log(a);
+
   var aName = a.fields.begin;
   var bName = b.fields.begin; 
   return ((bName < aName) ? -1 : ((bName > aName) ? 1 : 0));
@@ -224,7 +222,7 @@ function copyToClipboard(text) {
 
   // Remove it from the body
   document.body.removeChild(aux);
-  // console.log("edukia kopiatuta");
+  
   alert("edukiak kopiatuta daude");
 }
 
@@ -235,7 +233,7 @@ function toClipBoard()
 }
 function getFavArticle()
 {
-  console.log("getFavArticle barruan");
+  
   var id= $( "input:checked" ).val();
   updateMainNews(id);
   //return true;
@@ -391,7 +389,7 @@ $( document ).off( ".nagusia" )
   $("#content_error").empty();
   days_number=$("#days_number").val();
   days_number=days_number-1;
-  console.log(days_number);
+
   selected_day=$("#datepicker").datepicker("getDate");
   var selected_day_init=$("#datepicker").datepicker("getDate");
   var d = new Date(selected_day_init);
@@ -416,7 +414,7 @@ $( document ).off( ".nagusia" )
 .on("vclick.nagusia", "#createTemplateButton", function(event)
 { 
   event.preventDefault();
-  console.log("createTemplateSakata");
+
   main_new_text=$('.main_new_text_ta').val();
   custom_main_new_title=$('.custom_main_new_text_ta').val();
   custom_main_new_img=$('.custom_main_new_img_ta').val();
@@ -451,7 +449,7 @@ $( document ).off( ".nagusia" )
   var generated_end=getDownContent(getTableContent(),getEventRowList());
   
   var html_for_mailchimp=getStartHtml(main_new_image,main_new_text,main_new_title,main_new_url)+html_main_new+generated_end;
-  console.log(html_for_mailchimp);
+ 
   copyToClipboard(html_for_mailchimp);
   return false;
 })

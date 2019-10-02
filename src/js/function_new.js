@@ -24,15 +24,14 @@
  function generateContentTable()
  {
     //separateInArrays();
-    console.log("genrateContentBarruan");
+    
     getImagesFromSource();
     //down_content=getDownContent(getTableContent(),getEventRowList());
               
            /*   toClipBoard();
               hideLoading();*/
     $( document ).ajaxStop(function() {
-              console.log("IRUDIAK");
-              console.log(image_sources);
+             
             //s  down_content=getDownContent(getTableContent(),getEventRowList());
               
               toClipBoard();
@@ -197,7 +196,7 @@ right_table_content+
  }
  function rightSide(element,index)
  {
- // console.error(element);
+
   var title="";
   if (element.model==="multimedia.multimedia")
     title="BIDEOA "+element.fields.title_eu;
@@ -209,7 +208,7 @@ right_table_content+
 
  function leftSide(element,index)
  {
-  //console.error(element);
+  
 
   var title="";
   var url="";
@@ -306,7 +305,7 @@ function getVideoUrl(vid)
 
  function getAudioRow(element)
  {
-  //console.log(element);
+  
   var title=element.fields.title;
   var url= element.fields.blipURL_EU;
   return audio_row= '   <table class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" border="0" cellpadding="0" cellspacing="0" width="100%">  '  + 
