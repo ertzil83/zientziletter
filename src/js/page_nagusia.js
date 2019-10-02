@@ -390,12 +390,11 @@ $( document ).off( ".nagusia" )
   $('#copyToClipboardButton').hide();
   $("#content_error").empty();
   days_number=$("#days_number").val();
-  days_number=days_number-2
+  days_number=days_number-2;
   console.log(days_number);
   selected_day=$("#datepicker").datepicker("getDate");
   var selected_day_init=$("#datepicker").datepicker("getDate");
   var d = new Date(selected_day_init);
- 
   // Add weeks to the selected date, multiply with 7 to get days
   start = new Date(d.getFullYear(), d.getMonth(), d.getDate() -days_number); //-6
   end=new Date(d.getFullYear(), d.getMonth(), d.getDate() +1);
