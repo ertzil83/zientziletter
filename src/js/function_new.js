@@ -46,12 +46,13 @@
   {
     if(news_by_day[i].model==="artikulua.artikulua")
       mailc_articles_array.push(news_by_day[i]);
-    else if (news_by_day[i].model==="multimedia.multimedia")
+    else if (news_by_day[i].model==="multimedia.multimedia" || news_by_day[i].model==="audio_bideo.bideoa")
       mailc_videos_array.push(news_by_day[i]);
     else
       mailc_audios_array.push(news_by_day[i]);
   }
   console.log("separateInArrays barruan");
+  console.log(mailc_videos_array);
  }
 
  function getImagesFromSource()
@@ -217,6 +218,11 @@ right_table_content+
   if (element.model==="multimedia.multimedia")
   {
     title="BIDEOA "+element.fields.title_eu;
+    url=getVideoUrl(element);
+  }
+  else if (element.model==="audio_bideo.bideoa")
+  {
+    title="BIDEOA "+element.fields.title;
     url=getVideoUrl(element);
   }
   else

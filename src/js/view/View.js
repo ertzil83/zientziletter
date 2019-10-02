@@ -694,9 +694,9 @@ function View(rootElement)
       for(var i=0; i<list.length;i++)
       {
         
-        if(list[i].model==="artikulua.artikulua")
+        if(list[i].model==="artikulua.artikulua" ||list[i].model==="audio_bideo.bideoa")
           result= result+'<input type="checkbox" class="example" value="'+i+'" />'+list[i].fields.title+'</br>';
-        else
+        else 
         {
 
           result= result+'<input type="checkbox" class="example" value="'+i+'" />'+list[i].fields.title_eu+'</br>';
