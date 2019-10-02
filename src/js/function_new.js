@@ -84,15 +84,15 @@
 
  function completeImageArray(index, image_id)
  {
-   console.log("completeImageArray barruan");
+   
   image_sources[index]="";
     zientziApp.api.getIrudia(image_id)
           .done(function(response) {
-            console.log(response);
+            
             var imgs = $("<div>" +response +"</div>").find("img");
             var img_src=imgs.attr('src');
             image_sources[index]=img_src.replace(/ /g,'%20');
-            console.log(image_sources);
+            
           });
  }
 
@@ -100,7 +100,7 @@
  {
   var total_elemts=mailc_articles_array.length +mailc_videos_array.length; 
   left_table_content="";
-  console.log("GETTABLECONTENT BARRUAN");
+  
   /*right_table_content='   <table class="mcnBoxedTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" border="0" cellpadding="0" cellspacing="0" width="100%">  '  + 
  '       <!--[if gte mso 9]>  '  + 
  '    <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">  '  + 
@@ -192,7 +192,6 @@ right_table_content+
  '                  </td>  '  + 
  '                </tr>  ' ; 
  
- console.info(table_row);
  return table_row;
 
  }
@@ -246,8 +245,6 @@ function getVideoUrl(vid)
  function getRow(t,u,i)
  {
   var image=image_sources[i];
-console.log("getRow barruan");
-console.log(image);
  var table_element='<table width="100%" class="mcnCaptionBlock" border="0" cellspacing="0" cellpadding="0">'+
     '<tbody class="mcnCaptionBlockOuter">'+
         '<tr>'+
@@ -349,15 +346,14 @@ console.log(image);
 
  function getEventRowList()
  {
-   console.log("getEventRowList barrua");
+  
   var row_block="";
-  console.log(selected_event_list);
- // console.log("GET EVENT ROW LIST: "+selected_event_list.length);
+  
   for (var i=0; i<selected_event_list.length; i++)
   {
     row_block=row_block + getEventRow(selected_event_list[i])+table_dividier;
   }
-  console.error(row_block);
+  
   return row_block;
  }
 
@@ -415,8 +411,7 @@ console.log(image);
 
  function getDownContent(table_content_row,event_content_row)
  {
-   console.log("event_content_row");
-   console.log(table_content_row);
+  
   return '   </td>  '  + 
  '       </tr>  '  + 
  '   </tbody></table>  '  + 
