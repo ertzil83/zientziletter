@@ -147,13 +147,13 @@ function updateMainNews(value)
   }
   news_by_day.splice(index_to_delete,1);
   var photo="";
-  if(s_a.model==="audio_bideo.bideoa")
+  if(s_a.model==="artikulua.artikulua")
   {
     main_new_title=s_a.fields.title;
     main_new_url="http://zientzia.eus/artikuluak/"+s_a.fields.slug;
     photo=s_a.fields.photo;
   }
-  else if(s_a.model==="artikulua.artikulua")
+  else if(s_a.model==="audio_bideo.bideoa")
   {
     main_new_title=s_a.fields.title;
       main_new_url=getVideoUrl(s_a);

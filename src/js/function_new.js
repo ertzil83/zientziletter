@@ -51,13 +51,12 @@
     else
       mailc_audios_array.push(news_by_day[i]);
   }
-  console.log("separateInArrays barruan");
-  console.log(mailc_videos_array);
+  
  }
 
  function getImagesFromSource()
  {
-   console.log("getImagesFromSource barruan");
+  
   var total_elemts=mailc_articles_array.length +mailc_videos_array.length;
   var image_index=0; 
   image_sources=new Array(total_elemts);
