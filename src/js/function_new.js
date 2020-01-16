@@ -566,7 +566,7 @@
  '                               <td class="mcnImageContent" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">  '  + 
  '                                     '  + 
  '                                       <a href="http://www.zientzia.eus" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">  '  + 
- '                                           <img alt="" src="https://zientzia.korpoweb.com/static/img/logoa.png" style="max-width: 260px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage" align="left" width="260">  '  + 
+ '                                           <img alt="" src="http://www.ertzil.com/ZientziApp/el_logo.png" style="max-width: 260px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage" align="left" width="260">  '  + 
  '                                       </a>  '  + 
  '                                     '  + 
  '                               </td>  '  + 
