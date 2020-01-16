@@ -45,7 +45,7 @@ ZientziApp.Connection.prototype._imgServerCall = function(url, data, contentType
     .fail(function( jqXHR, textStatus, errorThrown)
     {
         console.log(errorThrown);
-        //self.serviceFailureAlert();
+        self.serviceFailureAlert();
         hideLoading();
     })
     .always(function()
