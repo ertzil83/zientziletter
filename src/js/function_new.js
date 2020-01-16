@@ -177,8 +177,8 @@
  '   			text-align:left;  '  + 
  '   		}  '  + 
  '   		#templatePreheader{  '  +  
- '   			background-color:#e6e6e5!important;  '  + 
- ' background: #e6e6e5 none no-repeat;'  + 
+ '   			background-color:#ffffff!important;  '  + 
+ '        background: #ffffff none no-repeat;'  + 
  '   			background-image:none;  '  + 
  '   			background-repeat:no-repeat;  '  + 
  '   			background-position:center;  '  + 
@@ -224,7 +224,7 @@
  '   			text-decoration:underline;  '  + 
  '   		}  '  + 
  '   		#templateUpperBody{  '  + 
- '   			background-color:#e6e6e5!important;  '  + 
+ '   			background-color:#ffffff!important;  '  + 
  '   			background-image:none;  '  + 
  '   			background-repeat:no-repeat;  '  + 
  '   			background-position:center;  '  + 
@@ -247,7 +247,7 @@
  '   			text-decoration:none;  '  + 
  '   		}  '  + 
  '   		#templateColumns{  '  + 
- '   			background-color:#e6e6e5!important;  '  + 
+ '   			background-color:#ffffff!important;  '  + 
  '   			background-image:none;  '  + 
  '   			background-repeat:no-repeat;  '  + 
  '   			background-position:center;  '  + 
@@ -270,7 +270,7 @@
  '   			text-decoration:none;  '  + 
  '   		}  '  + 
  '   		#templateLowerBody{  '  + 
- '   			background-color:#e6e6e5!important;  '  + 
+ '   			background-color:#ffffff!important;  '  + 
  '   			background-image:none;  '  + 
  '   			background-repeat:no-repeat;  '  + 
  '   			background-position:center;  '  + 
@@ -293,7 +293,7 @@
  '   			text-decoration:none;  '  + 
  '   		}  '  + 
  '   		#templateFooter{  '  + 
- '   			background-color:#e6e6e5!important;  '  + 
+ '   			background-color:#ffffff!important;  '  + 
  '   			background-image:none;  '  + 
  '   			background-repeat:no-repeat;  '  + 
  '   			background-position:center;  '  + 
