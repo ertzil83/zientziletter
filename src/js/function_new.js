@@ -3,7 +3,7 @@
  '       <tbody class="mcnDividerBlockOuter">  '  + 
  '           <tr>  '  + 
  '               <td class="mcnDividerBlockInner" style="min-width: 100%;padding: 5px 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">  '  + 
- '                   <table class="mcnDividerContent" style="min-width: 100%;border-top: 1px solid #c9b49755;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" border="0" cellpadding="0" cellspacing="0" width="100%">  '  + 
+ '                   <table class="mcnDividerContent" style="min-width: 100%;border-top: 1px solid #c6c6c2!important;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" border="0" cellpadding="0" cellspacing="0" width="100%">  '  + 
  '                       <tbody><tr>  '  + 
  '                           <td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">  '  + 
  '                               <span></span>  '  + 
