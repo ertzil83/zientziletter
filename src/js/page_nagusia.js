@@ -301,7 +301,7 @@ function createCustomArticle()
 function createTemplate()
 {
   
-   html_main_new= '   <div style="text-align: center;"><span style="font-size:18px"><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><a href="'+main_new_url+'" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ff9a00;font-weight: bold;text-decoration: none;">'+main_new_title+'</a></span></span></div>  '  + 
+   html_main_new= '   <div style="text-align: center;"><span style="font-size:18px"><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><a href="'+main_new_url+'" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #00aca9!important;font-weight: bold;text-decoration: none;">'+main_new_title+'</a></span></span></div>  '  + 
  '     '  + '                           </td>  '  + 
  '                       </tr>  '  + 
  '                   </tbody></table>  '  + 
