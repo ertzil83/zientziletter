@@ -177,7 +177,7 @@
  '   			text-align:left;  '  + 
  '   		}  '  + 
  '   		#templatePreheader{  '  + 
- '        background: #ffffff none no-repeat;'  + 
+ '        background: ##e6e6e5 none no-repeat !important;'  + 
  '   			background-color:#e6e6e5!important;  '  + 
  '   			background-image:none;  '  + 
  '   			background-repeat:no-repeat;  '  + 
