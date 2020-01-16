@@ -176,8 +176,7 @@
  '   			letter-spacing:normal;  '  + 
  '   			text-align:left;  '  + 
  '   		}  '  + 
- '   		#templatePreheader{  '  + 
- '        background: ##e6e6e5 none no-repeat !important;'  + 
+ '   		#templatePreheader{  '  +  
  '   			background-color:#e6e6e5!important;  '  + 
  '   			background-image:none;  '  + 
  '   			background-repeat:no-repeat;  '  + 
