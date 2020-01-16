@@ -456,6 +456,7 @@
  '     '  + 
  '   }	@media only screen and (max-width: 480px){  '  + 
  '   		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{  '  + 
+ '   			background-color:#c7c6c3!important;  '  + 
  '   			font-size:16px !important;  '  + 
  '   			line-height:150% !important;  '  + 
  '   		}  '  + 
@@ -555,7 +556,7 @@
  '   </table></td>  '  + 
  '   							</tr>  '  + 
  '   							<tr>  '  + 
- '   								<td valign="top" id="templateHeader" style="background:#c7c6c3!important none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #000000;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 0;"><table class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" border="0" cellpadding="0" cellspacing="0" width="100%">  '  + 
+ '   								<td valign="top" id="templateHeader" style="background:#c7c6c3!important none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #c7c6c3!important;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 0;"><table class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" border="0" cellpadding="0" cellspacing="0" width="100%">  '  + 
  '       <tbody class="mcnImageBlockOuter">  '  + 
  '               <tr>  '  + 
  '                   <td style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner" valign="top">  '  + 
