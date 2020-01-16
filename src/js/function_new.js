@@ -178,6 +178,7 @@
  '   		}  '  + 
  '   		#templatePreheader{  '  +  
  '   			background-color:#e6e6e5!important;  '  + 
+ ' background: #e6e6e5 none no-repeat;'  + 
  '   			background-image:none;  '  + 
  '   			background-repeat:no-repeat;  '  + 
  '   			background-position:center;  '  + 
