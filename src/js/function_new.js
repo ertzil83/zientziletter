@@ -19,12 +19,12 @@
  '       </tbody>  '  + 
  '  </table>  ' ; 
 
- function getHtmlStart(image, desc, url)
+ function getHtmlStart(image, desc,title,url)
 {
     console.log("GETHTMLSTART BARRUAN");
     return '   <!doctype html>  '  + 
  '   <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">  '  + 
- '   	<head><meta name="twitter:image:src" content="'+image+'"><meta name="twitter:description" content="'+desc+'"><meta name="twitter:title" content="'+desc+'"><meta name="twitter:card" content="summary_large_image"><meta property="og:type" content="article"><meta property="og:description" content="'+desc+'"><meta property="og:image" content="'+image+'"><meta property="og:title" content="'+desc+'"><meta property="og:url" content="'+url+'">  '  + 
+ '   	<head><meta name="twitter:image:src" content="'+image+'"><meta name="twitter:description" content="'+desc+'"><meta name="twitter:title" content="'+title+'"><meta name="twitter:card" content="summary_large_image"><meta property="og:type" content="article"><meta property="og:description" content="'+desc+'"><meta property="og:image" content="'+image+'"><meta property="og:title" content="'+title+'"><meta property="og:url" content="'+url+'">  '  + 
  '   		<!-- NAME: 1:2:1 COLUMN -->  '  + 
  '   		<!--[if gte mso 15]>  '  + 
  '           <xml>  '  + 
