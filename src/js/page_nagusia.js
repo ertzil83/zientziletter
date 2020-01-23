@@ -446,7 +446,7 @@ $( document ).off( ".nagusia" )
   console.error(main_new_url);
   console.error(main_new_title);
   console.error(main_new_image);
-  var html_for_mailchimp=getHtmlStart(main_new_image,main_new_desc,main_new_title,main_new_url)+html_main_new+generated_end;
+  var html_for_mailchimp=getHtmlStart(main_new_image,main_new_text,main_new_title,main_new_url)+html_main_new+generated_end;
   copyToClipboard(html_for_mailchimp);
   return false;
 })
