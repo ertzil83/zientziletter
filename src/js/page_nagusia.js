@@ -389,9 +389,10 @@ $( document ).off( ".nagusia" )
   selected_day=$("#datepicker").datepicker("getDate");
   var selected_day_init=$("#datepicker").datepicker("getDate");
   var d = new Date(selected_day_init);
+  var days=$('#number_days').val();
  
   // Add weeks to the selected date, multiply with 7 to get days
-  start = new Date(d.getFullYear(), d.getMonth(), d.getDate() -6);
+  start = new Date(d.getFullYear(), d.getMonth(), d.getDate() -days-1);
   end=new Date(d.getFullYear(), d.getMonth(), d.getDate() +1);
   start_ag=new Date(d.getFullYear(), d.getMonth(), d.getDate());
   end_ag=new Date(d.getFullYear(), d.getMonth(), d.getDate() +7);
@@ -442,10 +443,6 @@ $( document ).off( ".nagusia" )
 {
   event.preventDefault();
   var generated_end=down_content;
-  console.error("EDUKIAK");
-  console.error(main_new_url);
-  console.error(main_new_title);
-  console.error(main_new_image);
   var html_for_mailchimp=getHtmlStart(main_new_image,main_new_text,main_new_title,main_new_url)+html_main_new+generated_end;
   copyToClipboard(html_for_mailchimp);
   return false;
