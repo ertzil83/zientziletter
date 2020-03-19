@@ -920,7 +920,7 @@ function getVideoUrl(vid)
             '<table width="auto"  class="mcnCaptionRightTextContentContainer" border="0" cellspacing="0" cellpadding="0">'+
                 '<tbody><tr>'+
                     '<td class="mcnTextContent" valign="top" style="text-align: left; line-height: 200%; padding-left: 10px;">'+
-                        '<span style="font-size:14px"><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><a href="'+u+'">'+t+'</a></span></span>'+
+                        '<span style="font-size:14px"><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><a target="_blank" href="'+u+'">'+t+'</a></span></span>'+
                     '</td>'+
                 '</tr>'+
             '</tbody></table>'+

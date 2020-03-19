@@ -301,7 +301,7 @@ function createCustomArticle()
 function createTemplate()
 {
   
-   html_main_new= '   <div style="text-align: center;"><span style="font-size:18px"><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><a href="'+main_new_url+'" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #00aca9!important;font-weight: bold;text-decoration: none;">'+main_new_title+'</a></span></span></div>  '  + 
+   html_main_new= '   <div style="text-align: center;"><span style="font-size:18px"><span style="font-family:arial,helvetica neue,helvetica,sans-serif"><a target="_blank" href="'+main_new_url+'"  style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #00aca9!important;font-weight: bold;text-decoration: none;">'+main_new_title+'</a></span></span></div>  '  + 
  '     '  + '                           </td>  '  + 
  '                       </tr>  '  + 
  '                   </tbody></table>  '  + 
@@ -327,7 +327,7 @@ function createTemplate()
  '           <td class="mcnCaptionBottomImageContent" style="padding: 0 9px 9px 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" align="center" valign="top">  '  + 
  '             '  + 
  '                 '  + 
- '               <a href="'+main_new_url+'" title="" class="" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">  '  + 
+ '               <a href="'+main_new_url+'" title=""  target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">  '  + 
  '                 '  + 
  '     '  + 
  '               <img alt="" src="'+main_new_image+'" style="max-width: 600px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage" width="564">  '  + 
