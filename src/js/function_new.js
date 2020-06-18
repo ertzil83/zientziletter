@@ -958,7 +958,7 @@ function getVideoUrl(vid)
  {
   //console.log(element);
   var title=element.fields.title;
-  var url= element.fields.blipURL_EU;
+  var url= element.fields.blipMP3_EU;
   return audio_row= '   <table class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" border="0" cellpadding="0" cellspacing="0" width="100%">  '  + 
  '       <tbody class="mcnTextBlockOuter">  '  + 
  '           <tr>  '  + 
