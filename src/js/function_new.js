@@ -883,11 +883,11 @@ right_table_content+
 
 function getVideoUrl(vid)
 {
-  var iframe= vid.fields.blipIframe_eu;
+ /* var iframe= vid.fields.blipIframe_eu;
   var imgs = $("<div>" +iframe +"</div>").find("iframe");
   var src=imgs.attr('src');
-  var res = src.replace("screen", "screenview");
-  
+  var res = src.replace("screen", "screenview");*/
+  va res= vid.fields.blipMP4_eu;
   return res;
 }
 
