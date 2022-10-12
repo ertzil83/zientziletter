@@ -887,7 +887,7 @@ function getVideoUrl(vid)
   var imgs = $("<div>" +iframe +"</div>").find("iframe");
   var src=imgs.attr('src');
   var res = src.replace("screen", "screenview");*/
-  va res= vid.fields.blipMP4_eu;
+  var res= vid.fields.blipMP4_eu;
   return res;
 }
 
