@@ -583,7 +583,7 @@
  '                       <tbody>  '  + 
  '                           <tr>  '  + 
  '                               <td style="font-family: Arial;font-size: 16px;padding: 15px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnButtonContent" align="center" valign="middle">  '  + 
- '                                   <a class="mcnButton " title="Deskargatu ZientziAPP" href="http://zientzia.eus/artikuluak/zientziapp-garatu-du-elhuyarrek/" target="_blank" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;display: block;">Deskargatu ZientziAPP</a>  '  + 
+ '                                   <a class="mcnButton " title="Harpidetu Elhuyar Zientziaren telegramera" href="https://t.me/+hOYsfQl3V0s2NmI0" target="_blank" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;display: block;">Harpidetu Elhuyar Zientziaren telegramera</a>  '  + 
  '                               </td>  '  + 
  '                           </tr>  '  + 
  '                       </tbody>  '  + 
